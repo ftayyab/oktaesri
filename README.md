@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](http://python.org)
 
-This library has been provided to allow users of ArcGIS Enterprise to easily retrieve a token for their scripting needs. This token can be used with ArcGIS Rest API and/or ArcGIS API for Python. ArcGIS Enterprise does not provide out of the box solution to retrieve a token (when OKTA integration is setup). The only option is to use built-in accounts. However this may not be suitable in some cases as it adds a account and group management overhead. 
+This library has been provided to allow users of ArcGIS Enterprise to easily retrieve a token for their scripting needs. This token can be used with ArcGIS Rest API and/or ArcGIS API for Python. ArcGIS Enterprise does not provide out of the box solution to retrieve a token (when OKTA integration is setup). The only option is to use built-in accounts. However this may not be suitable in some cases as it adds account and group management overhead. 
 
 This library works as a broker and will allow users to access their content on the ArcGIS Platform using their OKTA based crendetails without the need of creating or requesting a built-in account. This allows the user to work with their content in their own groups without the need to create built-in accounts.
 
