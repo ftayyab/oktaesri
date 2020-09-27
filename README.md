@@ -2,15 +2,15 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](http://python.org)
 
-This library has been provided to allow users of ArcGIS Enterprise to eassily retrieve a token for their scripting needs. This token can be used with ArcGIS Rest API and/or ArcGIS API for Python. ArcGIS Enterprise does not provide out of the box solution to retrieve a token when OKTA integration is setup and the only option is to use built-in accounts. However this may not be suitable in some cases as it adds a management overhead. 
+This library has been provided to allow users of ArcGIS Enterprise to easily retrieve a token for their scripting needs. This token can be used with ArcGIS Rest API and/or ArcGIS API for Python. ArcGIS Enterprise does not provide out of the box solution to retrieve a token (when OKTA integration is setup). The only option is to use built-in accounts. However this may not be suitable in some cases as it adds a account and group management overhead. 
 
-This library works as a broker and will allow users to access their content on the ArcGIS Platform using their OKTA based crendetails without a need of creating a built-in account. 
+This library works as a broker and will allow users to access their content on the ArcGIS Platform using their OKTA based crendetails without the need of creating or requesting a built-in account. This allows the user to work with their content in their own groups without the need to create built-in accounts.
 
 The library also handles MFA in case (if MFA is enabled)
 
 # New Features!
 
-  - Inclusion of MFA two factor authentication
+  - Inclusion of MFA two factor authentication (Must be accepted within 30 seconds)
   - Error Logging
 
 
@@ -49,6 +49,7 @@ The following items are important for the functioning of the script and must be 
 
 ### Installation
 
+If you want to install the library for your own use please see below: [Usage terms apply]
 ```sh
 run batch file provided in setup folder in the zip file
 ``'
@@ -75,3 +76,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ----
+
+### Contact
+Author can be contacted via http://www.faizantayyab.com & linkedin
