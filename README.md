@@ -50,7 +50,7 @@ The following items are important for the functioning of the script and must be 
 ### Installation
 
 ```sh
-run batch file provided in setup folder
+run batch file provided in setup folder in the zip file
 ``'
 
 License
