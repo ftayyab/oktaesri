@@ -52,7 +52,7 @@ The following items are important for the functioning of the script and must be 
 If you want to install the library for your own use please see below: [Usage terms apply]
 ```sh
 run batch file provided in setup folder in the zip file
-``'
+```
 
 License
 ----
