@@ -50,8 +50,9 @@ The following items are important for the functioning of the script and must be 
 ### Installation
 
 If you want to install the library for your own use please see below: [Usage terms apply]
+Note: pip must be installed and available
 ```sh
-run batch file provided in setup folder in the zip file
+run batch file provided in the zip file.
 ```
 
 License
